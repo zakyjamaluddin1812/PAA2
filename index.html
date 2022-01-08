@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiak & Shio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="py-5 px-5 bg-light">
+    <h1 class="text-center">Zodiak & Shio</h1>
+    <form action="" name="form">
+        <div class="input-group mt-2">
+            <input type="number" class="form-control" placeholder="Tanggal Lahir" name="tanggal">
+            <select name="bulan" id="" class="form-control">
+                <option value="">Bulan</option>
+                <option value="1">Januari</option>
+                <option value="2">Februari</option>
+                <option value="3">Maret</option>
+                <option value="4">April</option>
+                <option value="5">Mei</option>
+                <option value="6">Juni</option>
+                <option value="7">Juli</option>
+                <option value="8">Agustus</option>
+                <option value="9">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">Nopember</option>
+                <option value="12">Desember</option>
+            </select>
+            <input type="number" class="form-control" placeholder="Tahun" name="tahun">
+            <div class="btn btn-outline-secondary" onclick="validForm()">Cek Zodiak</div>
+        </div>
+    </form>
+    <div class="row mt-3">
+        <div class="col-4">
+            <img src="assets/img/dragon.png" id="gambar" alt="">
+        </div>
+        <div class="col">
+            <div class="konten1">
+                <h2 class="text-center" id="judul">Sagitarius</h2>
+                <h5>Umum</h5>
+                <p id="umum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus obcaecati recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aut voluptatem impedit facilis unde natus nihil temporibus distinctio consequatur illo?</p>
+                <h5>Cinta</h5>
+                <p id="cinta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus obcaecati recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aut voluptatem impedit facilis unde natus nihil temporibus distinctio consequatur illo?</p>
+                <h5>Karir</h5>
+                <p id="karir">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus obcaecati recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aut voluptatem impedit facilis unde natus nihil temporibus distinctio consequatur illo?</p>
+                <h5>Keuangan</h5>
+                <p id="uang">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus obcaecati recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aut voluptatem impedit facilis unde natus nihil temporibus distinctio consequatur illo?</p>
+            </div>
+            <div class="konten2">
+                <h2 id="sapa"></h2>
+                <h2>Isi dulu form diatas ya</h2>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Sweet Alert JS -->
+    <script src="assets/js/alert.js"></script>
+
+
+    <!-- Function -->
+    <script src="function/welcome.js"></script>
+    <script src="function/gantiShio.js"></script>
+    <script src="function/gantiZodiak.js"></script>
+    <script src="function/validForm.js"></script>
+    <script src="function/error.js"></script>
+</body>
+</html>
